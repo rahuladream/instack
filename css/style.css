@@ -1,51 +1,45 @@
-@font-face {
-font-family: "Montserrat";
-font-weight: 100;
-src: url("../fonts/montserrat/Montserrat-Hairline.otf") format("opentype");
-}
-
-@font-face {
-font-family: "Montserrat";
-font-weight: 300;
-src: url("../fonts/montserrat/Montserrat-Light.otf") format("opentype");
-}
-
-@font-face {
-font-family: "Montserrat";
-font-weight: 500;
-src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
-}
+html {font-family: sans-serif;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
 
 
-@font-face {
-font-family: "Montserrat";
-font-weight: 700;
-src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
-}
 
-*,
-body,
-h1,
+b, strong {font-weight: 600;}
+
+
+
+/* p,
+span,
+a,
+li,
+ul {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color: #44444d;
+        letter-spacing: 0.1px;
+} */
+
+
+a {color: #44444d;}
+
+body, button, input, select, textarea {color: #32353c;font-family: 'Rubik', sans-serif; font-size:16px; line-height: 1.5em; overflow: hidden;}
+
+code, kbd, pre, samp {font-family: Menlo,monaco,Consolas,Lucida Console,monospace;font-size: 14px; color: #bd4147;}
+
+
+h1, h2, h3, h4, h5, h6 {clear: both;font-family: -apple-system,BlinkMacSystemFont,"proxima_nova",Roboto,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-weight: 600;text-align: inherit;line-height: 1.2;position: relative;}
+
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-span,
-a,
-li,
-ul {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    color: #44444d;
-        letter-spacing: 0.1px;
-}
-
 body{
     background-color: #ffffff;
     color: #44444d;
-}
+    font-family: "proxima_nova", sans-serif;
+} */
+
+body {background-color: transparent;}
 
 a{
   outline: none!important;
@@ -181,11 +175,18 @@ a:hover{
     float: left;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;   
 }
+
+
 
 .news-feed{
     margin:0 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+
 }
 
 .news-box{
@@ -197,7 +198,10 @@ a:hover{
     -webkit-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.5);
+
+
 }
+
 
 .news-box .img-box{
     width: 320px;
@@ -217,7 +221,6 @@ a:hover{
 
 .news-box .content-box h2{
     margin: 10px 0px;
-    font-weight: 100;
     font-size: 20px;
     line-height: 27px;
     margin-top: 5px;
@@ -238,10 +241,10 @@ a:hover{
 .news-box .content-box .news-content{
     margin: 0;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #44444d;
-    height: 140px;
+    height: 116px;
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
