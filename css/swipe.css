@@ -6,7 +6,6 @@
 
 body {
   overflow: hidden;
-  font-family: sans-serif;
 }
 
 .tinder {
@@ -113,7 +112,7 @@ body {
   margin-top: 32px;
   pointer-events: none;
 
-    margin: 12px 5% 6px;
+    margin: 13px 3% 10px;
     font-size: 2rem;
     color: #161616;
     opacity: .9;
@@ -125,11 +124,11 @@ body {
   pointer-events: none;
   margin-top: 7px;
   width: 90%;
-    margin: 0 5%;
+    margin: 0 3%;
     line-height: 2.35rem;
     font-size: 1.5rem;
     color: #585858;
-    font-family: Roboto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Rubik', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 300;
     opacity: .8;
 }
@@ -137,8 +136,21 @@ body {
 .xyz {
   font-size: 1.5rem;
     color: #c7c7c7;
-    margin-left: 20px;
+    margin: 13px 3% 10px;
     font-weight: 400;
+}
+
+
+.div-wrapper {
+  position: relative;
+  height: 300px;
+  width: auto;
+}
+
+.div-wrapper img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .tinder--buttons {

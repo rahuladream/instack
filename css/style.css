@@ -165,7 +165,7 @@ a:hover{
 }
 
 .page-content{
-    margin-top: 77px;
+    margin-top: 0px;
 }
 
 
@@ -174,8 +174,8 @@ a:hover{
 .news-container{    
     float: left;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 40px;   
+    /* margin-top: 20px;
+    margin-bottom: 40px;    */
 }
 
 
